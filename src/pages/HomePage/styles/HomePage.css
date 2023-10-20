@@ -1,0 +1,11 @@
+
+/* Body */
+
+.container-filter li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-body{
+    display: flex;
+}

@@ -1,0 +1,14 @@
+.additional-information{
+    margin: 1em ; 
+    min-width: 28%; 
+    display: flex;
+    flex-direction: column;
+    text-align: flex-end;
+    justify-content: center;
+
+}
+
+.additional-information h4{
+    margin: 1em;
+    color: #AAAAAA;
+}

@@ -1,0 +1,24 @@
+
+/* Cards- VideoGames */
+.container-cardGame{
+    display : flex;
+    padding: 15px;
+    flex-Wrap: wrap;
+    gap: 15px;
+    width: 85%;
+}
+
+
+/* Pagination- */
+.pagination{
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 10%; 
+    color: #fff;
+    cursor: pointer;
+}
+.pagination li{
+    list-style: none;
+    padding:  0 15px;
+}
