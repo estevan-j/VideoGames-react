@@ -26,17 +26,15 @@ const ListOfVideoGames = () => {
       const listVideoGames = videoGames.filter(videoGames => videoGames.genre == genreGames);
       setFilterList(listVideoGames)
     } 
+  }, [genreGames, videoGames])
+
+  useEffect(()=>{
     if (!isEmpty(titleGame)){
+      console.log('rendreiacnasdlf',titleGame)
       const videoGame = videoGames.filter( game => game.title.toLowerCase().indexOf(titleGame) !== -1)
       setFilterList(videoGame);
     }
-
-
-  }, [genreGames,titleGame, videoGames])
-
-  // useEffect(()=> {
-
-  // },[])
+  },[titleGame])
 
 
   const startIndex = currentPage * itemsPerPage;

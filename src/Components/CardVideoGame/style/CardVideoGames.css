@@ -3,5 +3,17 @@
     opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    /* Por ejemplo, ajustar el tamaño de fuente o el diseño de la página */
+    .container-cardGameDetail{
+        max-width: 160px;
+        background-color: aqua;
+    }
+    .container-cardGameDetail img{
+        max-width: 100%;
+    }
+}
+
 
 

@@ -4,7 +4,7 @@ import {GoBrowser} from 'react-icons/go';
 import { ICardVideoGame } from "../../constants/IVideoGames";
 import './style/CardVideoGames.css';
 
-const CardVideoGame = ({id, title, thumbnail, genre, platform }: ICardVideoGame) => {
+const CardVideoGame = ({title, thumbnail, genre, platform }: ICardVideoGame) => {
   return (
     <div style={CardVideoGameStyle }  className="container-cardGameDetail">
       <img style={ImgVideoGameStyle} src={thumbnail} />

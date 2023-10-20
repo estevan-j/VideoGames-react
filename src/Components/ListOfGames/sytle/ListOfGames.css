@@ -22,3 +22,12 @@
     list-style: none;
     padding:  0 15px;
 }
+
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    /* Por ejemplo, ajustar el tamaño de fuente o el diseño de la página */
+    .container-cardGame{
+        gap: 10px;
+    }
+}

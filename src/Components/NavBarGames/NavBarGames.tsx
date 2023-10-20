@@ -20,7 +20,7 @@ const NavBarGames = () => {
         <nav style={NavBarStyles}>
             <div style={NavBarContainer}>
                 <Link to={'/'} style={NavBarBrand} onClick={()=> setGenreGames('')}>
-                    Game<span>World</span>
+                    <span style={{textDecoration:'none', color: '#fff'}}>GameWorld</span>
                 </Link>
                 <div style={NavBarContainerInfo}>
                     <form style={NavBarForm} onSubmit={(e) => handleSubmit(e)} role="search">
